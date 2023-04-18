@@ -1,0 +1,11 @@
+#!name=Fimo Pro
+#!desc=Fimo会员解锁 先登陆再开插件
+#!homepage=https://t.me/ddgksf2021
+#!author= ddgksf2013
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/fimo.png
+
+[MITM]
+hostname= server.zbisq.com
+
+[Script]
+http-response ^https?:\/\/server\.zbisq\.com\/fimo-user requires-body=1,script-path=https://github.com/deezertidal/private/raw/master/js-backup/Crack/fimo.js
