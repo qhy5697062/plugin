@@ -8,4 +8,4 @@
 hostname= server.zbisq.com
 
 [Script]
-http-response ^https?:\/\/server\.zbisq\.com\/fimo-user requires-body=1,script-path=https://github.com/deezertidal/private/raw/master/js-backup/Crack/fimo.js
+http-response ^https?:\/\/server\.zbisq\.com\/fimo-user requires-body=1,script-path=https://raw.githubusercontent.com/qhy5697062/plugin/main/fimo/fimoProCrack.js
