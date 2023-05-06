@@ -23,8 +23,8 @@ Surge
 ^https:\/\/account\.huami\.com\/v2\/client\/login url script-response-body xmSports.js
 Loon
 [Script]
-cron "15 17 * * *" script-path=xmSports.js, tag=小米运动
-http-response ^https:\/\/account\.huami\.com\/v2\/client\/login script-path=xmSports.js, requires-body=true, timeout=3600, tag=小米运动获取Token
+cron "15 17 * * *" script-path=https://raw.githubusercontent.com/qhy5697062/plugin/main/xmSports.js, tag=小米运动
+http-response ^https:\/\/account\.huami\.com\/v2\/client\/login script-path=https://raw.githubusercontent.com/qhy5697062/plugin/main/xmSports.js, requires-body=true, timeout=3600, tag=小米运动获取Token
  */
 
 const $ = new Env('小米运动');
